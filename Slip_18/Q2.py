@@ -7,6 +7,7 @@ x = np.array(x).reshape(-1,1)
 y = np.array([7,14,15,18,19,21,26,23])
 
 model = LinearRegression().fit(x,y)
+
 print(model.intercept_)
 print(model.coef_)
 
