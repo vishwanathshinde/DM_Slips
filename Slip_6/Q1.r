@@ -8,4 +8,4 @@ print("Original data frame: ")
 print(ab)
 
 print("Duplicate elements of data frame: ")
-print(duplicated(a, b))
+print(duplicated(ab))
