@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv(r'C:\Users\Vishwanath\Practicals---\DM_Slips\Slip_12\data.csv')
+df = pd.read_csv(r'C:\Users\Vishwanath\Practicals---\DM_Slips\Slip_12\cardata.csv')
 x = df[['Weight', 'Volume']]
 y = df['CO2']
 
