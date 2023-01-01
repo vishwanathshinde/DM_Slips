@@ -37,3 +37,4 @@ df_pca.columns = ['Fresh','Milk','Grocery','Frozen','Detergents_Paper','Delicass
 plt.figure(figsize =(8, 8))
 plt.title('Visualising the data')
 dendrogram = hc.dendrogram((hc.linkage(df_pca, method ='ward')))
+plt.show()
