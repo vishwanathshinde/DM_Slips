@@ -8,6 +8,6 @@ age <- c(20, 22, 30, 25, 27)
 
 designation <- c("Manager", "Assistant", "Head", "CEO", "CR")
 
-Employee <- data.frame(empno, empname, gender, age, designation)
+employee <- data.frame(empno, empname, gender, age, designation)
 
-Employee
+employee
